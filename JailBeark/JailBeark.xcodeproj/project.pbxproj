@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5772CDD2243F336E0037F471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDD1243F336E0037F471 /* AppDelegate.m */; };
+		5772CDD5243F336E0037F471 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDD4243F336E0037F471 /* SceneDelegate.m */; };
+		5772CDD8243F336E0037F471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDD7243F336E0037F471 /* ViewController.m */; };
+		5772CDDB243F336E0037F471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5772CDD9243F336E0037F471 /* Main.storyboard */; };
+		5772CDDD243F336F0037F471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5772CDDC243F336F0037F471 /* Assets.xcassets */; };
+		5772CDE0243F336F0037F471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5772CDDE243F336F0037F471 /* LaunchScreen.storyboard */; };
+		5772CDE3243F336F0037F471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDE2243F336F0037F471 /* main.m */; };
+		5772CDED243F33700037F471 /* JailBearkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDEC243F33700037F471 /* JailBearkTests.m */; };
+		5772CDF8243F33700037F471 /* JailBearkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772CDF7243F33700037F471 /* JailBearkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5772CDE9243F33700037F471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5772CDC5243F336E0037F471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5772CDCC243F336E0037F471;
+			remoteInfo = JailBeark;
+		};
+		5772CDF4243F33700037F471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5772CDC5243F336E0037F471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5772CDCC243F336E0037F471;
+			remoteInfo = JailBeark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5772CDCD243F336E0037F471 /* JailBeark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JailBeark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772CDD0243F336E0037F471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5772CDD1243F336E0037F471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5772CDD3243F336E0037F471 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5772CDD4243F336E0037F471 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5772CDD6243F336E0037F471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5772CDD7243F336E0037F471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5772CDDA243F336E0037F471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5772CDDC243F336F0037F471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5772CDDF243F336F0037F471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5772CDE1243F336F0037F471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5772CDE2243F336F0037F471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5772CDE8243F33700037F471 /* JailBearkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBearkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772CDEC243F33700037F471 /* JailBearkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBearkTests.m; sourceTree = "<group>"; };
+		5772CDEE243F33700037F471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5772CDF3243F33700037F471 /* JailBearkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBearkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772CDF7243F33700037F471 /* JailBearkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBearkUITests.m; sourceTree = "<group>"; };
+		5772CDF9243F33700037F471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5772CDCA243F336E0037F471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDE5243F33700037F471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDF0243F33700037F471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5772CDC4243F336E0037F471 = {
+			isa = PBXGroup;
+			children = (
+				5772CDCF243F336E0037F471 /* JailBeark */,
+				5772CDEB243F33700037F471 /* JailBearkTests */,
+				5772CDF6243F33700037F471 /* JailBearkUITests */,
+				5772CDCE243F336E0037F471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5772CDCE243F336E0037F471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5772CDCD243F336E0037F471 /* JailBeark.app */,
+				5772CDE8243F33700037F471 /* JailBearkTests.xctest */,
+				5772CDF3243F33700037F471 /* JailBearkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5772CDCF243F336E0037F471 /* JailBeark */ = {
+			isa = PBXGroup;
+			children = (
+				5772CDD0243F336E0037F471 /* AppDelegate.h */,
+				5772CDD1243F336E0037F471 /* AppDelegate.m */,
+				5772CDD3243F336E0037F471 /* SceneDelegate.h */,
+				5772CDD4243F336E0037F471 /* SceneDelegate.m */,
+				5772CDD6243F336E0037F471 /* ViewController.h */,
+				5772CDD7243F336E0037F471 /* ViewController.m */,
+				5772CDD9243F336E0037F471 /* Main.storyboard */,
+				5772CDDC243F336F0037F471 /* Assets.xcassets */,
+				5772CDDE243F336F0037F471 /* LaunchScreen.storyboard */,
+				5772CDE1243F336F0037F471 /* Info.plist */,
+				5772CDE2243F336F0037F471 /* main.m */,
+			);
+			path = JailBeark;
+			sourceTree = "<group>";
+		};
+		5772CDEB243F33700037F471 /* JailBearkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5772CDEC243F33700037F471 /* JailBearkTests.m */,
+				5772CDEE243F33700037F471 /* Info.plist */,
+			);
+			path = JailBearkTests;
+			sourceTree = "<group>";
+		};
+		5772CDF6243F33700037F471 /* JailBearkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5772CDF7243F33700037F471 /* JailBearkUITests.m */,
+				5772CDF9243F33700037F471 /* Info.plist */,
+			);
+			path = JailBearkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5772CDCC243F336E0037F471 /* JailBeark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772CDFC243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBeark" */;
+			buildPhases = (
+				5772CDC9243F336E0037F471 /* Sources */,
+				5772CDCA243F336E0037F471 /* Frameworks */,
+				5772CDCB243F336E0037F471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailBeark;
+			productName = JailBeark;
+			productReference = 5772CDCD243F336E0037F471 /* JailBeark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5772CDE7243F33700037F471 /* JailBearkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772CDFF243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBearkTests" */;
+			buildPhases = (
+				5772CDE4243F33700037F471 /* Sources */,
+				5772CDE5243F33700037F471 /* Frameworks */,
+				5772CDE6243F33700037F471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5772CDEA243F33700037F471 /* PBXTargetDependency */,
+			);
+			name = JailBearkTests;
+			productName = JailBearkTests;
+			productReference = 5772CDE8243F33700037F471 /* JailBearkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5772CDF2243F33700037F471 /* JailBearkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772CE02243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBearkUITests" */;
+			buildPhases = (
+				5772CDEF243F33700037F471 /* Sources */,
+				5772CDF0243F33700037F471 /* Frameworks */,
+				5772CDF1243F33700037F471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5772CDF5243F33700037F471 /* PBXTargetDependency */,
+			);
+			name = JailBearkUITests;
+			productName = JailBearkUITests;
+			productReference = 5772CDF3243F33700037F471 /* JailBearkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5772CDC5243F336E0037F471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "黃進能";
+				TargetAttributes = {
+					5772CDCC243F336E0037F471 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					5772CDE7243F33700037F471 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5772CDCC243F336E0037F471;
+					};
+					5772CDF2243F33700037F471 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5772CDCC243F336E0037F471;
+					};
+				};
+			};
+			buildConfigurationList = 5772CDC8243F336E0037F471 /* Build configuration list for PBXProject "JailBeark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5772CDC4243F336E0037F471;
+			productRefGroup = 5772CDCE243F336E0037F471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5772CDCC243F336E0037F471 /* JailBeark */,
+				5772CDE7243F33700037F471 /* JailBearkTests */,
+				5772CDF2243F33700037F471 /* JailBearkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5772CDCB243F336E0037F471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772CDE0243F336F0037F471 /* LaunchScreen.storyboard in Resources */,
+				5772CDDD243F336F0037F471 /* Assets.xcassets in Resources */,
+				5772CDDB243F336E0037F471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDE6243F33700037F471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDF1243F33700037F471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5772CDC9243F336E0037F471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772CDD8243F336E0037F471 /* ViewController.m in Sources */,
+				5772CDD2243F336E0037F471 /* AppDelegate.m in Sources */,
+				5772CDE3243F336F0037F471 /* main.m in Sources */,
+				5772CDD5243F336E0037F471 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDE4243F33700037F471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772CDED243F33700037F471 /* JailBearkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772CDEF243F33700037F471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772CDF8243F33700037F471 /* JailBearkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5772CDEA243F33700037F471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5772CDCC243F336E0037F471 /* JailBeark */;
+			targetProxy = 5772CDE9243F33700037F471 /* PBXContainerItemProxy */;
+		};
+		5772CDF5243F33700037F471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5772CDCC243F336E0037F471 /* JailBeark */;
+			targetProxy = 5772CDF4243F33700037F471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5772CDD9243F336E0037F471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5772CDDA243F336E0037F471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5772CDDE243F336F0037F471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5772CDDF243F336F0037F471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5772CDFA243F33700037F471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5772CDFB243F33700037F471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5772CDFD243F33700037F471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBeark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBeark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5772CDFE243F33700037F471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBeark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBeark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5772CE00243F33700037F471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBearkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBearkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailBeark.app/JailBeark";
+			};
+			name = Debug;
+		};
+		5772CE01243F33700037F471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBearkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBearkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailBeark.app/JailBeark";
+			};
+			name = Release;
+		};
+		5772CE03243F33700037F471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBearkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBearkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JailBeark;
+			};
+			name = Debug;
+		};
+		5772CE04243F33700037F471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2N7WJFYA;
+				INFOPLIST_FILE = JailBearkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnsdk.JailBearkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JailBeark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5772CDC8243F336E0037F471 /* Build configuration list for PBXProject "JailBeark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772CDFA243F33700037F471 /* Debug */,
+				5772CDFB243F33700037F471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5772CDFC243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBeark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772CDFD243F33700037F471 /* Debug */,
+				5772CDFE243F33700037F471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5772CDFF243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBearkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772CE00243F33700037F471 /* Debug */,
+				5772CE01243F33700037F471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5772CE02243F33700037F471 /* Build configuration list for PBXNativeTarget "JailBearkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772CE03243F33700037F471 /* Debug */,
+				5772CE04243F33700037F471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5772CDC5243F336E0037F471 /* Project object */;
+}
